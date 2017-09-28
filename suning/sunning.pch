@@ -1,0 +1,354 @@
+//
+//  sunning.pch
+//  suning
+//
+//  Created by Bai on 2017/9/19.
+//  Copyright © 2017年 Bai. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Availability.h>
+#import "UZAssist.h"
+#import "LoginViewController.h"
+//框架
+#import "AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+#import "SNNetwork.h"
+#import "UIProgressView+AFNetworking.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "UZRefreshHeader.h"
+#import "UZStaticTools.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import "StaticTools.h"
+//数据加密 处理 压缩
+#import "NSData+AES128.h"
+#import "GTMBase64.h"
+#import "MyMD5.h"
+#import "LFCGzipUtillity.h"
+#import "ZipArchive.h"
+//扩展
+#import "UIViewAddition.h"
+#import "SNUser.h"
+#import "SNNetwork.h"
+//自定义UI
+#import "UZLabel.h"
+#import "SNNavigation.h"
+#import "system.h"
+#import "DMScrollingTicker.h"
+#import "UIView+Toast.h"
+#import "JxbScaleButton.h"
+#import "DJPageView.h"
+#import "iToast.h"
+#import "SGSheetMenu.h"
+#import "SGActionView.h"
+#import "ASProgressPopUpView.h"
+#import "UZAssist.h"
+#import "Color.h"
+#import "Font.h"
+#import "Category.h"
+#import "Assist.h"
+#import "Image.h"
+#import "ICRect.h"
+#import "WaitView.h"
+#import "ICButton.h"
+#import "StaticTools.h"
+#import "ICLabel.h"
+#import "Masonry.h"
+#import "ICTextField.h"
+#import "SNNoData.h"
+#endif
+//#ifndef __OPTIMIZE__
+//# define DLog(...) DLog(__VA_ARGS__)
+//#else
+//# define DLog(...) {}
+//#endif
+#define CLog(format, ...)  NSLog(format, ## __VA_ARGS__)
+#define NSLog(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#pragma mark-----友盟-----
+//#define UMAPPKEY @"56e10debe0f55a04e4001a56"
+#define UMAPPKEY @"56cd676867e58ea9ee000034"
+//AES加密解密密码
+#define kAESPassWord @"3A3132333435363738393B3132333435"
+#define KEYID  @"APP201612290001"
+#define KEY    @":123456789;12345"
+//个推信息
+#define kGtAppId           @"AKU5cKPuNw93h98IQuV9P1"
+#define kGtAppKey          @"qw5HfINOCH79YdcZlhnVq7"
+#define kGtAppSecret       @"r0LHHBu20dAEb9QEV3zzY9"
+
+//是否开启https
+#define HTTPSWITCH  0  //  1-开启使用https 非1－不开启使用https
+#define rongKey @"p5tvi9dstzra4" //融云山东研发key
+
+#define Server_Url @"60.216.3.34:20500"
+
+#define Client_Num @"cp_ios_sd_fc"
+
+#define Channel_Num @"default"
+
+#define rsaPubicKey_ @"0251345644846845"
+#define client_version @"1.0.0"
+
+
+//#define IPHONE_ORO
+
+#define IOS_VERSION_6_OR_ABOVE (([[[UIDevice currentDevice] systemVersion] compare:@"6.0"] >= 0)? (YES):(NO))
+
+#define IOS_VERSION_7_OR_ABOVE (([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] >= 0)? (YES):(NO))
+
+#define IOS_VERSION_11_OR_ABOVE (([[[UIDevice currentDevice] systemVersion] compare:@"11.0"] >= 0)? (YES):(NO))
+
+//大乐透销售代码
+#define DLT_DANSHI @"1"
+#define DLT_FUSHI @"2"
+#define DLT_DANTUO @"3"
+#define DLT_DANSHIZHUIJIA @"4"
+#define DLT_FUSHIZHUIJIA @"5"
+#define DLT_DANTUOZHUIJIA @"6"
+
+//双色球销售代码
+#define SSQ_DANSHI @"1"
+#define SSQ_FUSHI @"2"
+#define SSQ_DANTUO @"3"
+
+//3D销售代码
+#define THREED_DANXUANDANSHI @"1"
+#define THREED_ZU3DANSHI @"2"
+#define THREED_ZU6DANSHI @"3"
+#define THREED_ANWEIFUSHI @"4"
+#define THREED_ZU3FUSHI @"5"
+#define THREED_ZU6FUSHI @"6"
+#define THREED_ZU3DANTUO @"7"
+#define THREED_ZU6DANTUO @"8"
+#define THREED_DANXUANQUANFUSHI @"9"
+#define THREED_DANXUANQUANDANTUO @"10"
+#define THREED_ZHIXUANQUANBAODIAN @"11"
+#define THREED_ZU3BAODIAN @"12"
+#define THREED_ZU6BAODIAN @"13"
+#define THREED_1DDANSHI @"14"
+#define THREED_1DFUSHI @"15"
+#define THREED_CAI1DDANSHI @"16"
+#define THREED_CAI1DBAO @"17"
+#define THREED_2DDANSHI @"18"
+#define THREED_2DFUSHI @"19"
+#define THREED_CAI2DDANSHI @"20"
+#define THREED_CAI2DBAO @"21"
+#define THREED_BAO3 @"22"
+#define THREED_BAO6 @"23"
+
+//七乐彩销售代码
+#define QLC_DANSHI @"1"
+#define QLC_FUSHI @"2"
+#define QLC_DANTUO @"3"
+
+//排列3销售代码
+#define PL3_DANXUANDANSHI @"1"
+#define PL3_ZU3DANSHI @"2"
+#define PL3_ZU6DANSHI @"3"
+#define PL3_ANWEIFUSHI @"4"
+#define PL3_ZU3FUSHI @"5"
+#define PL3_ZU6FUSHI @"6"
+#define PL3_ZU3DANTUO @"7"
+#define PL3_ZU6DANTUO @"8"
+
+//排列5销售代码
+#define PL5_DANSHI @"1"
+#define PL5_ANWEIFUSHI @"2"
+
+//七星彩销售代码
+#define QXC_DANSHI @"1"
+#define QXC_ANWEIFUSHI @"2"
+
+//快三销售代码
+#define K3_HEZHI @"1"
+#define K3_SANTONGTONGXUAN @"2"
+#define K3_SANTONGDANXUAN @"3"
+#define K3_ERTONGFUXUAN @"4"
+#define K3_ERTONGDANXUAN @"5"
+#define K3_SANBUTONGDANXUAN @"6"
+#define K3_ERBUTONGFUXUAN @"7"
+#define K3_SANLIANTONGXUAN @"8"
+
+//群英会销售代码
+#define QYH_S1DANSHI @"1"
+#define QYH_S1FUSHI @"2"
+
+#define QYH_S2DANSHI @"3"
+#define QYH_S2ANWEIFUSHI @"4"
+#define QYH_S2FUSHI @"5"
+
+#define QYH_S3DANSHI @"6"
+#define QYH_S3ANWEIFUSHI @"7"
+#define QYH_S3FUSHI @"8"
+
+#define QYH_W2DANSHI @"9"
+#define QYH_W2FUSHI @"10"
+#define QYH_W2DANTUO @"11"
+
+#define QYH_W3DANSHI @"12"
+#define QYH_W3FUSHI @"13"
+#define QYH_W3DANTUO @"14"
+
+#define QYH_W4DANSHI @"15"
+#define QYH_W4FUSHI @"16"
+#define QYH_W4DANTUO @"17"
+
+#define QYH_W5DANSHI @"18"
+#define QYH_W5FUSHI @"19"
+#define QYH_W5DANTUO @"20"
+
+#define QYH_R1DANSHI @"21"
+#define QYH_R1FUSHI @"22"
+
+#define QYH_R2DANSHI @"23"
+#define QYH_R2FUSHI @"24"
+#define QYH_R2DATUO @"25"
+
+#define QYH_R3DANSHI @"26"
+#define QYH_R3FUSHI @"27"
+#define QYH_R3DATUO @"28"
+
+#define QYH_R4DANSHI @"29"
+#define QYH_R4FUSHI @"30"
+#define QYH_R4DATUO @"31"
+
+#define QYH_R5DANSHI @"32"
+#define QYH_R5FUSHI @"33"
+#define QYH_R5DATUO @"34"
+
+#define QYH_R6DANSHI @"35"
+#define QYH_R6FUSHI @"36"
+#define QYH_R6DATUO @"37"
+
+#define QYH_R7DANSHI @"38"
+#define QYH_R7FUSHI @"39"
+#define QYH_R7DATUO @"40"
+
+#define QYH_R8DANSHI @"41"
+#define QYH_R8FUSHI @"42"
+#define QYH_R8DATUO @"43"
+
+#define QYH_R9DANSHI @"44"
+#define QYH_R9FUSHI @"45"
+#define QYH_R9DATUO @"46"
+
+#define QYH_R10DANSHI @"47"
+#define QYH_R10FUSHI @"48"
+#define QYH_R10DATUO @"49"
+
+#define QYH_WUXING @"51"
+#define QYH_WUXINGF @"52"
+#define QYH_FANGWEI @"53"
+#define QYH_FANGWEIF @"54"
+#define QYH_DANSHUANG @"50"
+
+
+//快乐十分销售代码
+#define KLSF_SHOUWEIDANSHI @"1"
+#define KLSF_SHOUWEIFUSHI @"2"
+#define KLSF_SHOUWEIHONGDANGSHI @"3"
+#define KLSF_ERLIANZHIXUANDANSHI @"4"
+#define KLSF_ERLIANZHIXUANANWEIFUSHI @"5"
+#define KLSF_ERLIANFUSHI @"6"
+#define KLSF_ERLIANDANTUO @"7"
+#define KLSF_ERLIANZUXUANDANSHI @"8"
+#define KLSF_ERLIANZUXUANFUSHI @"9"
+#define KLSF_ERLIANZUXUANDANTUO @"10"
+#define KLSF_QIANSANDANSHI @"11"
+#define KLSF_QIANSANZHIXUANANWEIFUSHI @"12"
+#define KLSF_QIANSANZHIXUANFUSHI @"13"
+#define KLSF_QIANSANZHIXUANDANTUO @"14"
+#define KLSF_QIANSANZUXUANDANSHI @"15"
+#define KLSF_QIANSANZUXUANFUSHI @"16"
+#define KLSF_QIANSANZUXUANDANTUO @"17"
+#define KLSF_R2DANSHI @"18"
+#define KLSF_R2FUSHI @"19"
+#define KLSF_R2DANTUO @"20"
+
+#define KLSF_R3DANSHI @"21"
+#define KLSF_R3FUSHI @"22"
+#define KLSF_R3DANTUO @"23"
+
+#define KLSF_R4DANSHI @"24"
+#define KLSF_R4FUSHI @"25"
+#define KLSF_R4DANTUO @"26"
+
+#define KLSF_R5DANSHI @"27"
+#define KLSF_R5FUSHI @"28"
+#define KLSF_R5DANTUO @"29"
+
+//快乐扑克销售代码
+#define KLPK_TONGHUABAOXUAN @"1"
+#define KLPK_TONGHUADANXUAN @"2"
+#define KLPK_TONGHUASHUNBAOXUAN @"3"
+#define KLPK_TONGHUASHUNDANXUAN @"4"
+#define KLPK_SHUNZIBAOXUAN @"5"
+#define KLPK_SHUNZIDANXUAN @"6"
+#define KLPK_BAOZIBAOXUAN @"7"
+#define KLPK_BAOZIDANXUAN @"8"
+#define KLPK_DUIZIBAOXUAN @"9"
+#define KLPK_DUIZIDANXUAN @"10"
+#define KLPK_R1DANSHI @"11"
+#define KLPK_R1FUSHI @"12"
+
+#define KLPK_R2DANSHI @"13"
+#define KLPK_R2FUSHI @"14"
+#define KLPK_R2DANTUO @"15"
+
+#define KLPK_R3DANSHI @"16"
+#define KLPK_R3FUSHI @"17"
+#define KLPK_R3DANTUO @"18"
+
+#define KLPK_R4DANSHI @"19"
+#define KLPK_R4FUSHI @"20"
+#define KLPK_R4DANTUO @"21"
+
+#define KLPK_R5DANSHI @"22"
+#define KLPK_R5FUSHI @"23"
+#define KLPK_R5DANTUO @"24"
+
+#define KLPK_R6DANSHI @"25"
+#define KLPK_R6FUSHI @"26"
+#define KLPK_R6DANTUO @"27"
+
+//23选5销售代码
+#define X5_DANSHI @"1"
+#define X5_FUSHI @"2"
+#define X5_DANTUO @"3"
+
+#define UDValue(key) [[NSUserDefaults standardUserDefaults]objectForKey:key]
+#define SETUDValue(value,key) [[NSUserDefaults standardUserDefaults] setObject:value forKey:key]
+#define COLOR(r, g, b)            [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+
+#define COLOR_WITH_IMAGE_NAME(name)     [UIColor colorWithPatternImage:[UIImage imageNamed:name]]
+#define IMAGE_WITH_IMAGE_NAME(name)     [UIImage imageNamed:name]
+
+#pragma mark - 玩法代码
+//以下玩法代码名称采用拼音首字母缩写,例：双色球（SSQ）
+#define TC_SYY      @"C511"             //十一运夺金
+#define TC_DLT      @"DLT"              //大乐透
+#define TC_KLPK     @"KLPK"             //快乐扑克
+#define FC_SSQ      @"SSQ"              //双色球
+#define FC_3D       @"FC3D"             //3D
+#define FC_QLC      @"QLC"              //七乐彩
+#define FC_SSC      @"006"              //时时彩
+#define JC_FOOTBAL  @"200"              //竞彩足球  2.4.0加入
+#define TC_PL3      @"PL3"              //排列3
+#define TC_PL5      @"PL5"              //排列5
+#define TC_QXC      @"QXC"              //七星彩
+#define FC_X5       @"C523"             //23选5
+#define JCZQ        @"JCZQ"             //竞彩足球
+#define JCLQ        @"JCLQ"             //竞彩篮球
+#define FC_QYH      @"QYH"              //群英会
+#define FC_K3       @"K3"               //快三  1.6.0版本加入
+#define FC_KLSF     @"KLSF"             //快乐十分  2.5.0加入
+
+
+#define kQYHRedNum    20   //群英会球数
+//三同号和三连号
+#define TT3_NAME @"三同号通选"
+#define TL3_NAME @"三连号通选"
