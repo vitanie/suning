@@ -9,7 +9,10 @@
 #import "LoginViewController.h"
 
 @interface LoginViewController ()
-
+{
+    
+    
+}
 @end
 
 @implementation LoginViewController
@@ -35,4 +38,27 @@
 }
 */
 
+- (IBAction)confirm:(id)sender {
+    
+    NSString *pwdStr = [MyMD5 md5:_password.text];
+    
+    NSDictionary *dic = [[NSDictionary alloc] initWithObjectsAndKeys:_username.text,@"loginName",pwdStr,@"password", nil];
+    [[SNNetwork shard] reqWithCommand:@"USR1003" body:dic mode:@"3" success:^(id res) {
+        //加载数据源
+        [[SNUser shard] setBody:res];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isAutoLogin"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isLogin"];
+        SETUDValue([res objectForKey:@"sid"], @"sid");
+        SETUDValue([res objectForKey:@"skey"], @"skey");
+        NSLog(@"登录1003:%@",res);
+        
+        [self dismissViewControllerAnimated:YES completion:nil];
+        
+        
+    } failure:^(NSError *errors) {
+        
+        NSLog(@"%@",errors);
+    }];
+    
+}
 @end

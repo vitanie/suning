@@ -263,6 +263,7 @@
 		21CF5AAE1F74BBD900CAAC94 /* gif_big_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A731F74BBD800CAAC94 /* gif_big_4@3x.png */; };
 		21CF5AAF1F74BBD900CAAC94 /* gif_big_5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A741F74BBD800CAAC94 /* gif_big_5@3x.png */; };
 		21CF5AB01F74BBD900CAAC94 /* gif_big_6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A751F74BBD800CAAC94 /* gif_big_6@3x.png */; };
+		21D743AC1F949AD500D587CE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D743AB1F949AD500D587CE /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -697,6 +698,7 @@
 		21CF5A731F74BBD800CAAC94 /* gif_big_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_4@3x.png"; sourceTree = "<group>"; };
 		21CF5A741F74BBD800CAAC94 /* gif_big_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_5@3x.png"; sourceTree = "<group>"; };
 		21CF5A751F74BBD800CAAC94 /* gif_big_6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_6@3x.png"; sourceTree = "<group>"; };
+		21D743AB1F949AD500D587CE /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -846,11 +848,17 @@
 		21C3DFC91F70E2C6006E6D1E /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				21C6FEA41F95E7E7008F306C /* jiangzhuantou */,
+				21C6FEA31F95E7E0008F306C /* tixian */,
+				21C6FEA21F95E7DA008F306C /* chongzhi */,
+				21C6FEA11F95E7D1008F306C /* goumaimingxi */,
+				21C6FEA01F95E7C1008F306C /* zhanghumingxi */,
 				21AD99411F74FE7900FB1CF1 /* cell */,
 				21AD99341F74F45A00FB1CF1 /* AccountViewController.h */,
 				21AD99351F74F45A00FB1CF1 /* AccountViewController.m */,
 				21CA17E51F79F6CE00D376F5 /* LoginViewController.h */,
 				21CA17E61F79F6CE00D376F5 /* LoginViewController.m */,
+				21D743AB1F949AD500D587CE /* LoginViewController.xib */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -1537,6 +1545,41 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		21C6FEA01F95E7C1008F306C /* zhanghumingxi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = zhanghumingxi;
+			sourceTree = "<group>";
+		};
+		21C6FEA11F95E7D1008F306C /* goumaimingxi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = goumaimingxi;
+			sourceTree = "<group>";
+		};
+		21C6FEA21F95E7DA008F306C /* chongzhi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = chongzhi;
+			sourceTree = "<group>";
+		};
+		21C6FEA31F95E7E0008F306C /* tixian */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tixian;
+			sourceTree = "<group>";
+		};
+		21C6FEA41F95E7E7008F306C /* jiangzhuantou */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jiangzhuantou;
+			sourceTree = "<group>";
+		};
 		21CA97A11F734F8C002844D1 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -2022,6 +2065,7 @@
 				21CF5A4F1F74AD9700CAAC94 /* tab_lotteryopen.png in Resources */,
 				211F747E1F78DB8F00836F24 /* 七乐彩.png in Resources */,
 				21CF5A481F74AD9700CAAC94 /* tab_more.png in Resources */,
+				21D743AC1F949AD500D587CE /* LoginViewController.xib in Resources */,
 				21AD99251F74ED0000FB1CF1 /* icon_t5_nor@3x.png in Resources */,
 				21CF5A4C1F74AD9700CAAC94 /* 独家.png in Resources */,
 				21CF5AB01F74BBD900CAAC94 /* gif_big_6@3x.png in Resources */,
