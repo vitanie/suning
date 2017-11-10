@@ -262,7 +262,6 @@
 		21CF5AAE1F74BBD900CAAC94 /* gif_big_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A731F74BBD800CAAC94 /* gif_big_4@3x.png */; };
 		21CF5AAF1F74BBD900CAAC94 /* gif_big_5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A741F74BBD800CAAC94 /* gif_big_5@3x.png */; };
 		21CF5AB01F74BBD900CAAC94 /* gif_big_6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A751F74BBD800CAAC94 /* gif_big_6@3x.png */; };
-		B911301C1FB5752D006BB338 /* 导视3.png in Resources */ = {isa = PBXBuildFile; fileRef = B911301B1FB5752D006BB338 /* 导视3.png */; };
 		B9911D431F7C93550085E967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9911D421F7C93540085E967 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -696,7 +695,6 @@
 		21CF5A731F74BBD800CAAC94 /* gif_big_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_4@3x.png"; sourceTree = "<group>"; };
 		21CF5A741F74BBD800CAAC94 /* gif_big_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_5@3x.png"; sourceTree = "<group>"; };
 		21CF5A751F74BBD800CAAC94 /* gif_big_6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_6@3x.png"; sourceTree = "<group>"; };
-		B911301B1FB5752D006BB338 /* 导视3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导视3.png"; sourceTree = "<group>"; };
 		B9911D411F7C93540085E967 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = suning/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		B9911D421F7C93540085E967 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = suning/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -870,7 +868,6 @@
 		21C3DFCB1F70E2C6006E6D1E /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				B911301B1FB5752D006BB338 /* 导视3.png */,
 				21AD99421F750DAB00FB1CF1 /* icon_ac_cz.png */,
 				21AD99431F750DAC00FB1CF1 /* icon_ac_gmmx.png */,
 				21AD99441F750DAE00FB1CF1 /* icon_ac_jzt.png */,
@@ -2041,7 +2038,6 @@
 				21CF5AA11F74BBD900CAAC94 /* gif_big_2@2x.png in Resources */,
 				211F74901F78DCAE00836F24 /* blueBall@2x.png in Resources */,
 				211F74831F78DB8F00836F24 /* 竞彩足球.png in Resources */,
-				B911301C1FB5752D006BB338 /* 导视3.png in Resources */,
 				21CF5A4E1F74AD9700CAAC94 /* tab_main_gray.png in Resources */,
 				21AD99121F74ED0000FB1CF1 /* icon_t1_nor@2x.png in Resources */,
 				211F74811F78DB8F00836F24 /* 双色球.png in Resources */,

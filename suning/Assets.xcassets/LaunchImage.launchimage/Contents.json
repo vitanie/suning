@@ -61,13 +61,6 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "导视3.png",
-      "minimum-system-version" : "7.0",
-      "scale" : "2x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "iphone",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
     },
