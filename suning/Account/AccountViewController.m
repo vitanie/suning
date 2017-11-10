@@ -60,6 +60,10 @@
         LoginViewController *log = [[LoginViewController alloc] init];
         [self presentViewController:log animated:YES completion:nil];
     }
+    else
+    {
+        [self updateUpView];
+    }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
