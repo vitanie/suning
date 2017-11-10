@@ -41,11 +41,21 @@
     
     [_tableView reloadData];
     
+    [self updateUpView];
     // Do any additional setup after loading the view.
+}
+-(void)updateUpView
+{
+    NSString *headImgeId = [SNUser shard].headImageId;
+    NSLog(@"------>>>>>%@",headImgeId);
+    _userName.text = [SNUser shard].userName;
+    _cash.text = [StaticTools fenToyuan:[SNUser shard].cash];
+    _bonus.text = [StaticTools fenToyuan:[SNUser shard].bonus];
+    _hongBao.text = [StaticTools fenToyuan:[SNUser shard].present];
 }
 - (void)viewWillAppear:(BOOL)animated
 {
-    if(!UDValue(@"isLogin"))
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"isLogin"])
     {
         LoginViewController *log = [[LoginViewController alloc] init];
         [self presentViewController:log animated:YES completion:nil];
