@@ -27,7 +27,6 @@
 		211F748F1F78DCAE00836F24 /* redBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211F748D1F78DCAD00836F24 /* redBall@2x.png */; };
 		211F74901F78DCAE00836F24 /* blueBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211F748E1F78DCAD00836F24 /* blueBall@2x.png */; };
 		217FAE291F6FBA6800B03A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FAE281F6FBA6800B03A8D /* main.m */; };
-		217FAE2C1F6FBA6800B03A8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 217FAE2B1F6FBA6800B03A8D /* AppDelegate.m */; };
 		217FAE351F6FBA6800B03A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217FAE331F6FBA6800B03A8D /* Main.storyboard */; };
 		217FAE371F6FBA6800B03A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217FAE361F6FBA6800B03A8D /* Assets.xcassets */; };
 		217FAE3A1F6FBA6800B03A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217FAE381F6FBA6800B03A8D /* LaunchScreen.storyboard */; };
@@ -263,6 +262,8 @@
 		21CF5AAE1F74BBD900CAAC94 /* gif_big_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A731F74BBD800CAAC94 /* gif_big_4@3x.png */; };
 		21CF5AAF1F74BBD900CAAC94 /* gif_big_5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A741F74BBD800CAAC94 /* gif_big_5@3x.png */; };
 		21CF5AB01F74BBD900CAAC94 /* gif_big_6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CF5A751F74BBD800CAAC94 /* gif_big_6@3x.png */; };
+		B911301C1FB5752D006BB338 /* 导视3.png in Resources */ = {isa = PBXBuildFile; fileRef = B911301B1FB5752D006BB338 /* 导视3.png */; };
+		B9911D431F7C93550085E967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9911D421F7C93540085E967 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -291,8 +292,6 @@
 		211F748E1F78DCAD00836F24 /* blueBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueBall@2x.png"; sourceTree = "<group>"; };
 		217FAE241F6FBA6800B03A8D /* suning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		217FAE281F6FBA6800B03A8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		217FAE2A1F6FBA6800B03A8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
-		217FAE2B1F6FBA6800B03A8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		217FAE341F6FBA6800B03A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		217FAE361F6FBA6800B03A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		217FAE391F6FBA6800B03A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -697,6 +696,9 @@
 		21CF5A731F74BBD800CAAC94 /* gif_big_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_4@3x.png"; sourceTree = "<group>"; };
 		21CF5A741F74BBD800CAAC94 /* gif_big_5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_5@3x.png"; sourceTree = "<group>"; };
 		21CF5A751F74BBD800CAAC94 /* gif_big_6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif_big_6@3x.png"; sourceTree = "<group>"; };
+		B911301B1FB5752D006BB338 /* 导视3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "导视3.png"; sourceTree = "<group>"; };
+		B9911D411F7C93540085E967 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = suning/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B9911D421F7C93540085E967 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = suning/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -868,6 +870,7 @@
 		21C3DFCB1F70E2C6006E6D1E /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				B911301B1FB5752D006BB338 /* 导视3.png */,
 				21AD99421F750DAB00FB1CF1 /* icon_ac_cz.png */,
 				21AD99431F750DAC00FB1CF1 /* icon_ac_gmmx.png */,
 				21AD99441F750DAE00FB1CF1 /* icon_ac_jzt.png */,
@@ -927,8 +930,8 @@
 		21C3DFCE1F70E2C6006E6D1E /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				217FAE2A1F6FBA6800B03A8D /* AppDelegate.h */,
-				217FAE2B1F6FBA6800B03A8D /* AppDelegate.m */,
+				B9911D411F7C93540085E967 /* AppDelegate.h */,
+				B9911D421F7C93540085E967 /* AppDelegate.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -986,7 +989,6 @@
 				21C3E07B1F70E757006E6D1E /* UZPagesView */,
 				21C3E08F1F70E757006E6D1E /* UZStaticTools */,
 				21C3E09C1F70E757006E6D1E /* Zip */,
-				21C3E0A81F70E757006E6D1E /* ZipArchive */,
 				21C3DFD31F70E4E2006E6D1E /* UZAssist */,
 			);
 			path = Tools;
@@ -1409,21 +1411,6 @@
 				21C3E0A71F70E757006E6D1E /* ZipArchive.mm */,
 			);
 			path = Zip;
-			sourceTree = "<group>";
-		};
-		21C3E0A81F70E757006E6D1E /* ZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				21C3E0A91F70E757006E6D1E /* minizip */,
-			);
-			path = ZipArchive;
-			sourceTree = "<group>";
-		};
-		21C3E0A91F70E757006E6D1E /* minizip */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = minizip;
 			sourceTree = "<group>";
 		};
 		21C3E1001F70E768006E6D1E /* AFNetworking */ = {
@@ -1987,6 +1974,7 @@
 				TargetAttributes = {
 					217FAE231F6FBA6800B03A8D = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X3KTQM3586;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -2053,6 +2041,7 @@
 				21CF5AA11F74BBD900CAAC94 /* gif_big_2@2x.png in Resources */,
 				211F74901F78DCAE00836F24 /* blueBall@2x.png in Resources */,
 				211F74831F78DB8F00836F24 /* 竞彩足球.png in Resources */,
+				B911301C1FB5752D006BB338 /* 导视3.png in Resources */,
 				21CF5A4E1F74AD9700CAAC94 /* tab_main_gray.png in Resources */,
 				21AD99121F74ED0000FB1CF1 /* icon_t1_nor@2x.png in Resources */,
 				211F74811F78DB8F00836F24 /* 双色球.png in Resources */,
@@ -2145,6 +2134,7 @@
 				21C3E0AE1F70E757006E6D1E /* NSString+Base64.m in Sources */,
 				21CA97BD1F734F8C002844D1 /* ICLabel.m in Sources */,
 				21C3E0F71F70E757006E6D1E /* NSData+Base64.m in Sources */,
+				B9911D431F7C93550085E967 /* AppDelegate.m in Sources */,
 				21C3E0B21F70E757006E6D1E /* DMScrollingTicker.m in Sources */,
 				21CA97D61F73506E002844D1 /* UIColor+Util.m in Sources */,
 				21C3E0D91F70E757006E6D1E /* MJRefreshGifHeader.m in Sources */,
@@ -2153,7 +2143,6 @@
 				21C3E0AD1F70E757006E6D1E /* NSData+CommonCrypto.m in Sources */,
 				21C3E1701F70F1A6006E6D1E /* ICRichLabel.m in Sources */,
 				21C3E0EA1F70E757006E6D1E /* UUDatePicker.m in Sources */,
-				217FAE2C1F6FBA6800B03A8D /* AppDelegate.m in Sources */,
 				21C3E0DA1F70E757006E6D1E /* MJRefreshNormalHeader.m in Sources */,
 				21CA97DB1F73506E002844D1 /* UIView+Util.m in Sources */,
 				21C3E0E71F70E757006E6D1E /* StaticTools.m in Sources */,
@@ -2399,12 +2388,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = X3KTQM3586;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/suning/sunning.pch";
 				INFOPLIST_FILE = suning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bai.suning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uuzz.lotteryshandong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2413,12 +2404,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = X3KTQM3586;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/suning/sunning.pch";
 				INFOPLIST_FILE = suning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bai.suning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uuzz.lotteryshandong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
