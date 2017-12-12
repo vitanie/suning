@@ -8,6 +8,7 @@
 
 #import "AccountViewController.h"
 #import "AccountTableViewCell.h"
+#import "ZiJinMingXiVC.h"
 @interface AccountViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)SNNavigation* navigationView;
 @property(nonatomic,strong)NSMutableArray *items1;
@@ -135,6 +136,16 @@
     }
     
     return cell1;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if(indexPath.section == 1){
+        if(indexPath.row == 1){
+            ZiJinMingXiVC *zijin = [[ZiJinMingXiVC alloc] init];
+            zijin.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:zijin animated:YES];
+        }
+    }
 }
 /*
 #pragma mark - Navigation

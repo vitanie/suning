@@ -71,10 +71,14 @@
 #pragma mark-----友盟-----
 //#define UMAPPKEY @"56e10debe0f55a04e4001a56"
 #define UMAPPKEY @"56cd676867e58ea9ee000034"
-//AES加密解密密码
-#define kAESPassWord @"3A3132333435363738393B3132333435"
-#define KEYID  @"APP201612290001"
-#define KEY    @":123456789;12345"
+//AES加密解密密码（研发）
+//#define kAESPassWord @"3A3132333435363738393B3132333435"
+//#define KEYID  @"APP201612290001"
+//#define KEY    @":123456789;12345"
+//AES加密解密密码（正式）
+#define kAESPassWord @"423A343C313A49676D353B716C383C6D"
+#define KEYID  @"APP201712040001"
+#define KEY    @"B:4<1:Igm5;ql8<m"
 //个推信息
 #define kGtAppId           @"AKU5cKPuNw93h98IQuV9P1"
 #define kGtAppKey          @"qw5HfINOCH79YdcZlhnVq7"
@@ -84,9 +88,12 @@
 #define HTTPSWITCH  0  //  1-开启使用https 非1－不开启使用https
 #define rongKey @"p5tvi9dstzra4" //融云山东研发key
 
-#define Server_Url @"60.216.3.34:20500"
+//#define Server_Url @"60.216.3.34:20500"//曾经的研发环境
+#define Server_Url @"suhai.mympc.org:20700"//正式环境
 
-#define Client_Num @"cp_ios_sd_fc"
+//#define Client_Num @"cp_ios_sd_fc"
+
+#define Client_Num @"cp_ios_sn"
 
 #define Channel_Num @"default"
 

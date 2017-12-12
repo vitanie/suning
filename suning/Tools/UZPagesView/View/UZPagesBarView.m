@@ -342,7 +342,7 @@
         _lineView=[[UIView alloc] init];
         
         //设置颜色
-        _lineView.backgroundColor=kNavigationColor;
+        _lineView.backgroundColor=[UIColor colorWithHexString:@"#E6313A"];
 
         [self addSubview:_lineView];
     }

@@ -53,7 +53,7 @@
         
     }
     
-    
+    NSLog(@"%@",[@"423A343C313A49676D353B716C383C6D" stringFromHex]);
     
     KeychainItemWrapper *wrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"imeiTungKong" accessGroup:nil];
     self.uuid = [wrapper objectForKey:(id)kSecAttrAccount];
@@ -207,6 +207,7 @@
         NSLog(@"------------上传token失败-------------");
     }];
 }
+
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

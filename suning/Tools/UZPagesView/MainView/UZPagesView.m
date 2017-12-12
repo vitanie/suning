@@ -143,7 +143,7 @@
     [super awakeFromNib];
 
     self.scrollView.pagingEnabled=YES;
-
+    
     //注册屏幕旋转
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceRotate) name:UIDeviceOrientationDidChangeNotification object:nil];
     
