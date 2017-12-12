@@ -28,9 +28,9 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        noData = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"ic_nodata"]];
+        noData = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"wushujiu"]];
         //noData.backgroundColor = [UIColor redColor];
-        noData.frame = CGRectMake((frame.size.width-75)/2+5, (frame.size.height-75)/2, 75, 75);
+        noData.frame = CGRectMake((kWindowWidth-174)/2+5, 85, 174, 174);
         [self addSubview:noData];
         UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(noData.frame)+5, kWindowWidth, 20)];
         label.text = @"暂无数据刷新试试";

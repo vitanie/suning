@@ -39,10 +39,10 @@
  *  个性化
  */
 -(void)UZPagesBarBtnPrePare{
-    
+    [self setBackgroundColor:[UIColor colorWithHexString:@"#DCDCDC"]];
     [self setTitleColor:kTextFontColor forState:UIControlStateNormal];
     //[self setTitleColor:kNavigationColor forState:UIControlStateHighlighted];
-    [self setTitleColor:kNavigationColor forState:UIControlStateSelected];
+    [self setTitleColor:[UIColor colorWithHexString:@"#E6313A"] forState:UIControlStateSelected];
 }
 
 
