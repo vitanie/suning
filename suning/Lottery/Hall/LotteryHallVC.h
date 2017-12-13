@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LotteryHallVC : UIViewController
+@property (weak, nonatomic) IBOutlet UICollectionView *lotteryCollection;
 
 @end

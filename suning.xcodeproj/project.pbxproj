@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210B9FE71FE14D8A008160D3 /* LotteryHallCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 210B9FE51FE14D8A008160D3 /* LotteryHallCollectionCell.m */; };
+		210B9FE81FE14D8A008160D3 /* LotteryHallCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 210B9FE61FE14D8A008160D3 /* LotteryHallCollectionCell.xib */; };
+		210B9FED1FE14FE4008160D3 /* XLsn0wLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 210B9FEA1FE14FE4008160D3 /* XLsn0wLoop.m */; };
+		210B9FEE1FE14FE4008160D3 /* XLsn0wLoop.png in Resources */ = {isa = PBXBuildFile; fileRef = 210B9FEB1FE14FE4008160D3 /* XLsn0wLoop.png */; };
+		210B9FF61FE1561B008160D3 /* DataSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210B9FF01FE1561A008160D3 /* DataSourceModel.m */; };
+		210B9FF71FE1561B008160D3 /* XLsn0wTextCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 210B9FF11FE1561A008160D3 /* XLsn0wTextCarousel.m */; };
+		210B9FF81FE1561B008160D3 /* TextInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 210B9FF21FE1561A008160D3 /* TextInfoView.m */; };
 		211F74671F78A7B100836F24 /* LotteryOpenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211F74661F78A7B100836F24 /* LotteryOpenViewController.m */; };
 		211F746A1F78D54400836F24 /* HeMaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211F74691F78D54400836F24 /* HeMaiViewController.m */; };
 		211F746E1F78D77300836F24 /* SNNoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 211F746D1F78D77300836F24 /* SNNoData.m */; };
@@ -274,6 +281,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		210B9FE41FE14D8A008160D3 /* LotteryHallCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryHallCollectionCell.h; sourceTree = "<group>"; };
+		210B9FE51FE14D8A008160D3 /* LotteryHallCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryHallCollectionCell.m; sourceTree = "<group>"; };
+		210B9FE61FE14D8A008160D3 /* LotteryHallCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LotteryHallCollectionCell.xib; sourceTree = "<group>"; };
+		210B9FEA1FE14FE4008160D3 /* XLsn0wLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wLoop.m; sourceTree = "<group>"; };
+		210B9FEB1FE14FE4008160D3 /* XLsn0wLoop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XLsn0wLoop.png; sourceTree = "<group>"; };
+		210B9FEC1FE14FE4008160D3 /* XLsn0wLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wLoop.h; sourceTree = "<group>"; };
+		210B9FF01FE1561A008160D3 /* DataSourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceModel.m; sourceTree = "<group>"; };
+		210B9FF11FE1561A008160D3 /* XLsn0wTextCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTextCarousel.m; sourceTree = "<group>"; };
+		210B9FF21FE1561A008160D3 /* TextInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextInfoView.m; sourceTree = "<group>"; };
+		210B9FF31FE1561A008160D3 /* DataSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceModel.h; sourceTree = "<group>"; };
+		210B9FF41FE1561A008160D3 /* TextInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextInfoView.h; sourceTree = "<group>"; };
+		210B9FF51FE1561A008160D3 /* XLsn0wTextCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTextCarousel.h; sourceTree = "<group>"; };
 		211F74651F78A7B100836F24 /* LotteryOpenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryOpenViewController.h; sourceTree = "<group>"; };
 		211F74661F78A7B100836F24 /* LotteryOpenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryOpenViewController.m; sourceTree = "<group>"; };
 		211F74681F78D54400836F24 /* HeMaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeMaiViewController.h; sourceTree = "<group>"; };
@@ -731,6 +750,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210B9FE91FE14FE4008160D3 /* XLsn0wLoop */ = {
+			isa = PBXGroup;
+			children = (
+				210B9FEA1FE14FE4008160D3 /* XLsn0wLoop.m */,
+				210B9FEB1FE14FE4008160D3 /* XLsn0wLoop.png */,
+				210B9FEC1FE14FE4008160D3 /* XLsn0wLoop.h */,
+			);
+			path = XLsn0wLoop;
+			sourceTree = "<group>";
+		};
+		210B9FEF1FE1561A008160D3 /* XLsn0wTextCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				210B9FF01FE1561A008160D3 /* DataSourceModel.m */,
+				210B9FF11FE1561A008160D3 /* XLsn0wTextCarousel.m */,
+				210B9FF21FE1561A008160D3 /* TextInfoView.m */,
+				210B9FF31FE1561A008160D3 /* DataSourceModel.h */,
+				210B9FF41FE1561A008160D3 /* TextInfoView.h */,
+				210B9FF51FE1561A008160D3 /* XLsn0wTextCarousel.h */,
+			);
+			path = XLsn0wTextCarousel;
+			sourceTree = "<group>";
+		};
 		211F746B1F78D54800836F24 /* HeMaiCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -865,6 +907,9 @@
 				21C26A541F73B1A100D576F8 /* LotteryHallView.m */,
 				21C26A511F73B10B00D576F8 /* LotteryHallTableViewCell.h */,
 				21C26A521F73B10B00D576F8 /* LotteryHallTableViewCell.m */,
+				210B9FE41FE14D8A008160D3 /* LotteryHallCollectionCell.h */,
+				210B9FE51FE14D8A008160D3 /* LotteryHallCollectionCell.m */,
+				210B9FE61FE14D8A008160D3 /* LotteryHallCollectionCell.xib */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -996,6 +1041,8 @@
 		21C3DFD11F70E2C6006E6D1E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				210B9FEF1FE1561A008160D3 /* XLsn0wTextCarousel */,
+				210B9FE91FE14FE4008160D3 /* XLsn0wLoop */,
 				21C3DFD71F70E757006E6D1E /* AESCrypt */,
 				21C3DFE21F70E757006E6D1E /* ASProgressPopUpView */,
 				21C3DFE71F70E757006E6D1E /* DJPageView */,
@@ -2142,6 +2189,7 @@
 				21AD991B1F74ED0000FB1CF1 /* icon_t5_nor@2x.png in Resources */,
 				21AD99191F74ED0000FB1CF1 /* icon_t4_nor@2x.png in Resources */,
 				21AD99151F74ED0000FB1CF1 /* icon_t2_nor_hdpi.png in Resources */,
+				210B9FE81FE14D8A008160D3 /* LotteryHallCollectionCell.xib in Resources */,
 				21AD99221F74ED0000FB1CF1 /* icon_t4@3x.png in Resources */,
 				21CF5AA01F74BBD900CAAC94 /* gif_big_1@2x.png in Resources */,
 				21AD992E1F74F30200FB1CF1 /* n_ts.png in Resources */,
@@ -2183,6 +2231,7 @@
 				21AD991F1F74ED0000FB1CF1 /* icon_t2_nor@3x.png in Resources */,
 				21AD991D1F74ED0000FB1CF1 /* icon_t1_nor@3x.png in Resources */,
 				211F74801F78DB8F00836F24 /* 排列3.png in Resources */,
+				210B9FEE1FE14FE4008160D3 /* XLsn0wLoop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2215,6 +2264,7 @@
 				21CA97BD1F734F8C002844D1 /* ICLabel.m in Sources */,
 				21C3E0F71F70E757006E6D1E /* NSData+Base64.m in Sources */,
 				B9911D431F7C93550085E967 /* AppDelegate.m in Sources */,
+				210B9FE71FE14D8A008160D3 /* LotteryHallCollectionCell.m in Sources */,
 				21C3E0B21F70E757006E6D1E /* DMScrollingTicker.m in Sources */,
 				21CA97D61F73506E002844D1 /* UIColor+Util.m in Sources */,
 				21C3E0D91F70E757006E6D1E /* MJRefreshGifHeader.m in Sources */,
@@ -2270,6 +2320,7 @@
 				21C3E0D71F70E757006E6D1E /* MJRefreshBackNormalFooter.m in Sources */,
 				21C3E0EF1F70E757006E6D1E /* UZPagesViewConfig.m in Sources */,
 				21C3E0E11F70E757006E6D1E /* UZRefreshHeader.m in Sources */,
+				210B9FF71FE1561B008160D3 /* XLsn0wTextCarousel.m in Sources */,
 				21C3E1351F70E768006E6D1E /* UIAlertView+AFNetworking.m in Sources */,
 				21C3E1341F70E768006E6D1E /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				21C3E0BC1F70E757006E6D1E /* MASCompositeConstraint.m in Sources */,
@@ -2284,6 +2335,7 @@
 				211F74671F78A7B100836F24 /* LotteryOpenViewController.m in Sources */,
 				21C3E1711F70F1A6006E6D1E /* ICTextBean.m in Sources */,
 				21C3E0DD1F70E757006E6D1E /* MJRefreshConst.m in Sources */,
+				210B9FF81FE1561B008160D3 /* TextInfoView.m in Sources */,
 				21C3E0B41F70E757006E6D1E /* HMSegmentedControl.m in Sources */,
 				21C3E1321F70E768006E6D1E /* Reachability.m in Sources */,
 				21C3E1681F70F1A6006E6D1E /* UIImage+Util.m in Sources */,
@@ -2320,12 +2372,14 @@
 				21C3E0C31F70E757006E6D1E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				21CA97DC1F73506E002844D1 /* UIViewAddition.m in Sources */,
 				21CA97D71F73506E002844D1 /* UIDevice+Util.m in Sources */,
+				210B9FF61FE1561B008160D3 /* DataSourceModel.m in Sources */,
 				21C3E0F61F70E757006E6D1E /* NSData+AES.m in Sources */,
 				21C3E0F41F70E757006E6D1E /* UZPagesBarView.m in Sources */,
 				21C3E0C21F70E757006E6D1E /* NSArray+MASAdditions.m in Sources */,
 				21C26A4E1F73A5FE00D576F8 /* NSString+Encrypt.m in Sources */,
 				21C3E0C51F70E757006E6D1E /* ViewController+MASAdditions.m in Sources */,
 				21C3DFD61F70E4E2006E6D1E /* UZAssist.m in Sources */,
+				210B9FED1FE14FE4008160D3 /* XLsn0wLoop.m in Sources */,
 				21C3E0D81F70E757006E6D1E /* MJRefreshBackStateFooter.m in Sources */,
 				21C3E1331F70E768006E6D1E /* AFNetworkActivityIndicatorManager.m in Sources */,
 				21C3E0AF1F70E757006E6D1E /* ASPopUpView.m in Sources */,

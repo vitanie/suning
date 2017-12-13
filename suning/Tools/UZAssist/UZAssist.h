@@ -33,18 +33,20 @@
 //获取系统版本
 #define kUZversion [[[[[UIDevice currentDevice] systemVersion] description]substringToIndex:1]integerValue]
 
+//判断是否是iPhoneX
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
 //取得系统底层控制器
 #define kRootViewController [UIApplication sharedApplication].keyWindow.rootViewController
 //取得系统代理
 #define kAppDelegate ((AppDelegate *)[[UIApplication sharedApplication] delegate])
 
 //Navigation上面控件的minY
-#define kStateBarHeight   ((kUZversion >= 10)?(40.0f):(20.0f))
+#define kStateBarHeight   ((iPhoneX)?(40.0f):(20.0f))
 //Navigation的高度
-#define kNavigationHeight 64.0f
-#define kNavigationBarHeight ((kUZversion >= 10)?(64.0f):(44.0f))
+#define kNavigationHeight ((iPhoneX)?(84.0f):(64.0f))
+#define kNavigationBarHeight ((iPhoneX)?(64.0f):(44.0f))
 //TabBar的高度
-#define kTabbarHeight ((kUZversion >= 7)?(49.0f):(49.0f))
+#define kTabbarHeight 49.0f
 //Navigation的颜色
 #define kNavigationColor [UIColor colorWithRed:34.0/255 green:136.0/255 blue:212.0/255 alpha:1]
 //Button的颜色

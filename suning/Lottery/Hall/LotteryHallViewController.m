@@ -26,7 +26,7 @@
     [self.view addSubview:_navigationView];
     
     
-    [_tableView setFrame:CGRectMake(0, kNavigationHeight-20, kWindowWidth, kWindowHeight - kNavigationHeight -kTabbarHeight)];
+//    [_tableView setFrame:CGRectMake(0, kNavigationHeight-20, kWindowWidth, kWindowHeight - kNavigationHeight -kTabbarHeight)];
     
     _tableView.backgroundColor = [UIColor whiteColor];
     _tableView.delegate = self;
