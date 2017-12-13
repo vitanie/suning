@@ -29,7 +29,7 @@
     if (self) {
         
         //Login导航背景图
-        self.backgroundColor = [UIColor colorWithHexString:@"#E6313A"];
+        self.backgroundColor = [UIColor colorWithHexString:@"#d41e15"];
         
         
         //标题
