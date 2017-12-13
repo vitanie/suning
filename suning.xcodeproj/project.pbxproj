@@ -269,6 +269,7 @@
 		B91130271FB59BA6006BB338 /* icon_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B91130261FB59BA6006BB338 /* icon_nav_back@2x.png */; };
 		B91130291FB59BAE006BB338 /* icon_nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B91130281FB59BAE006BB338 /* icon_nav_back@3x.png */; };
 		B911302B1FB59EC6006BB338 /* wushujiu.png in Resources */ = {isa = PBXBuildFile; fileRef = B911302A1FB59EC6006BB338 /* wushujiu.png */; };
+		B951E9661FE1025100E27F25 /* LotteryHallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B951E9651FE1025100E27F25 /* LotteryHallVC.m */; };
 		B9911D431F7C93550085E967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9911D421F7C93540085E967 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
@@ -712,6 +713,8 @@
 		B91130261FB59BA6006BB338 /* icon_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_nav_back@2x.png"; sourceTree = "<group>"; };
 		B91130281FB59BAE006BB338 /* icon_nav_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_nav_back@3x.png"; sourceTree = "<group>"; };
 		B911302A1FB59EC6006BB338 /* wushujiu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wushujiu.png; sourceTree = "<group>"; };
+		B951E9641FE1025100E27F25 /* LotteryHallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LotteryHallVC.h; sourceTree = "<group>"; };
+		B951E9651FE1025100E27F25 /* LotteryHallVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LotteryHallVC.m; sourceTree = "<group>"; };
 		B958584F1FDFDB3B00AA21A0 /* suning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = suning.entitlements; sourceTree = "<group>"; };
 		B9911D411F7C93540085E967 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = suning/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		B9911D421F7C93540085E967 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = suning/AppDelegate.m; sourceTree = SOURCE_ROOT; };
@@ -849,6 +852,8 @@
 				21C26A501F73B0EB00D576F8 /* cell */,
 				21C3DFC61F70DECB006E6D1E /* LotteryHallViewController.h */,
 				21C3DFC71F70DECB006E6D1E /* LotteryHallViewController.m */,
+				B951E9641FE1025100E27F25 /* LotteryHallVC.h */,
+				B951E9651FE1025100E27F25 /* LotteryHallVC.m */,
 			);
 			path = Hall;
 			sourceTree = "<group>";
@@ -2332,6 +2337,7 @@
 				21C3E0FD1F70E757006E6D1E /* unzip.c in Sources */,
 				21C3E16D1F70F1A6006E6D1E /* Assist.m in Sources */,
 				21C3E1671F70F1A6006E6D1E /* UIDevice+Util.m in Sources */,
+				B951E9661FE1025100E27F25 /* LotteryHallVC.m in Sources */,
 				21C3E0D41F70E757006E6D1E /* MJRefreshAutoNormalFooter.m in Sources */,
 				21C26A481F73915B00D576F8 /* SNNavigation.m in Sources */,
 				21CA97B91F734F8C002844D1 /* BaseNavgationView.m in Sources */,
